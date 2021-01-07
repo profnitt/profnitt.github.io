@@ -654,6 +654,25 @@ section {
   text-decoration: none;
 }
 
+.icon-bar {
+  width: 100%; 
+  background-color: #FFFF; 
+  overflow: auto; 
+  height : 120px;
+}
+
+.icon-bar .icon {
+  width: 25%;
+  height: 100px;
+  float: left;
+  padding: 10px;
+}
+
+.icon-bar .icon i {
+  font-size: 90px;
+}
+
+
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
