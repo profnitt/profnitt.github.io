@@ -654,25 +654,24 @@ section {
   text-decoration: none;
 }
 
-.column-ig {
-  float: left;
+.icon-bar {
+  width: 100%; 
+  background-color: #FFFF; 
+  overflow: auto; 
+  height : 120px;
+}
+
+.icon-bar .icon {
   width: 25%;
-  padding: 5px;
+  height: 100px;
+  float: left;
+  padding: 10px;
 }
 
-/* Clear floats after image containers */
-.row-ig::after {
-  content: "";
-  clear: both;
-  display: table;
+.icon-bar .icon i {
+  font-size: 90px;
 }
 
-img.photogrid {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
 
 /*--------------------------------------------------------------
 # Services
