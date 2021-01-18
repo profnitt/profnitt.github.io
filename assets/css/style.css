@@ -157,7 +157,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu > ul > li {
   position: relative;
   white-space: nowrap;
-  margin: 0 12px;
+  margin: 0 22px;
 }
 
 .nav-menu a {
@@ -1522,7 +1522,7 @@ section {
   font-size: 15;
   font-style: italic;
   padding: 0;
-  margin: 0 0 40px 0;
+  margin: 20px 0 20px 0;
 }
 
 #footer .social-links {
@@ -1565,4 +1565,7 @@ section {
 
 #footer .credits a:hover {
   color: #2f3980;
+}
+#footer .logo img {
+  max-height: 50px;
 }
