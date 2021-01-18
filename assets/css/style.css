@@ -92,16 +92,17 @@ h1, h2, h3, h4, h5, h6 {
   width: 40px;
   height: 40px;
   border-radius: 50px;
-  background: #009961;
+  background: #1e0044;
   color: #fff;
   transition: all 0.4s;
 }
 
 .back-to-top i:hover {
-  background: #00b371;
+  background: #2f3980;
   color: #fff;
 }
 
+/* #2f3980 */
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -112,7 +113,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled, #header.header-inner-pages {
-  background: rgba(40, 40, 40, 0.9);
+  background: #2f3980;
 }
 
 #header .logo {
@@ -156,7 +157,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu > ul > li {
   position: relative;
   white-space: nowrap;
-  margin: 0 12px;
+  margin: 0 22px;
 }
 
 .nav-menu a {
@@ -177,7 +178,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: -2px;
   left: 0;
-  background-color: #009961;
+  background-color: #420099;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -204,7 +205,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #fff;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
-  border-top: 2px solid #009961;
+  border-top: 2px solid#420099;
 }
 
 .nav-menu .drop-down:hover > ul {
@@ -227,7 +228,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: #009961;
+  color: #420099;
 }
 
 .nav-menu .drop-down > a:after {
@@ -273,7 +274,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Get Startet Button */
 .get-started-btn {
   margin-left: 25px;
-  background: #009961;
+  background: #1e0044;
   color: #fff;
   border-radius: 50px;
   padding: 8px 25px 9px 25px;
@@ -284,7 +285,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .get-started-btn:hover {
-  background: #00b371;
+  background: #1e0044;
   color: #fff;
 }
 
@@ -347,7 +348,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #009961;
+  color: #420099;
   text-decoration: none;
 }
 
@@ -408,7 +409,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/proffnitt1.png") top center;
   background-size: cover;
   position: relative;
 }
@@ -447,7 +448,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 94px;
   height: 94px;
   margin: 0 auto;
-  background: radial-gradient(#009961 50%, rgba(0, 153, 97, 0.4) 52%);
+  background: radial-gradient(#420099 50%, rgba(0, 153, 97, 0.4) 52%);
   border-radius: 50%;
   display: block;
   overflow: hidden;
@@ -493,7 +494,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .play-btn:hover::after {
-  border-left: 15px solid #009961;
+  border-left: 15px solid #420099;
   transform: scale(20);
 }
 
@@ -585,7 +586,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #009961;
+  background:#420099;
   bottom: 0;
   left: 0;
 }
@@ -623,7 +624,7 @@ section {
   left: 0;
   top: 2px;
   font-size: 20px;
-  color: #009961;
+  color: #1e0044;
   line-height: 1;
 }
 
@@ -641,15 +642,15 @@ section {
   border-radius: 50px;
   transition: 0.3s;
   line-height: 1;
-  color: #009961;
+  color: #1e0044;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   margin-top: 6px;
-  border: 2px solid #009961;
+  border: 2px solid#1e0044;
 }
 
 .about .content .btn-learn-more:hover {
-  background: #009961;
+  background: #1e0044;
   color: #fff;
   text-decoration: none;
 }
@@ -688,7 +689,7 @@ section {
 .services .icon-box .icon {
   width: 64px;
   height: 64px;
-  background: #009961;
+  background: #2f3980;
   border-radius: 50px;
   display: flex;
   align-items: center;
@@ -721,11 +722,11 @@ section {
 
 .services .icon-box:hover {
   transform: translateY(-10px);
-  border-color: #009961;
+  border-color:#2f3980;
 }
 
 .services .icon-box:hover h4 a {
-  color: #009961;
+  color: #2f3980;
 }
 
 /*--------------------------------------------------------------
@@ -757,13 +758,13 @@ section {
   border-radius: 2px;
   transition: 0.5s;
   margin: 10px;
-  background: #009961;
+  background:#420099;
   color: #fff;
   border-radius: 50px;
 }
 
 .cta .cta-btn:hover {
-  background: #00b371;
+  background: #420099;
 }
 
 @media (max-width: 1024px) {
@@ -792,7 +793,7 @@ section {
 .features .icon-box i {
   font-size: 48px;
   float: left;
-  color: #009961;
+  color: #420099;
 }
 
 .features .icon-box p {
@@ -875,7 +876,7 @@ section {
   font-size: 48px;
   display: block;
   font-weight: 700;
-  color: #009961;
+  color: #420099;
 }
 
 .counts .counters p {
@@ -919,7 +920,7 @@ section {
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
   color: #fff;
-  background: #009961;
+  background: #2f3980;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -945,7 +946,7 @@ section {
   bottom: -50px;
   z-index: 3;
   transition: all ease-in-out 0.3s;
-  background: #009961;
+  background:#2f3980;
   padding: 15px 20px;
 }
 
@@ -971,7 +972,7 @@ section {
 }
 
 .portfolio .portfolio-item .portfolio-info .preview-link:hover, .portfolio .portfolio-item .portfolio-info .details-link:hover {
-  color: #33ffb4;
+  color:#2f3980;
 }
 
 .portfolio .portfolio-item .portfolio-info .details-link {
@@ -1015,7 +1016,7 @@ section {
 
 .pricing .box h4 {
   font-size: 42px;
-  color: #009961;
+  color: #2f3980;
   font-weight: 500;
   font-family: "Open Sans", sans-serif;
   margin-bottom: 20px;
@@ -1047,7 +1048,7 @@ section {
 }
 
 .pricing .box ul i {
-  color: #009961;
+  color:#2f3980;
   font-size: 18px;
   padding-right: 4px;
 }
@@ -1066,8 +1067,8 @@ section {
   display: inline-block;
   padding: 10px 40px 12px 40px;
   border-radius: 50px;
-  border: 2px solid #009961;
-  color: #009961;
+  border: 2px solid #2f3980;
+  color: #2f3980;
   font-size: 14px;
   font-weight: 400;
   font-family: "Raleway", sans-serif;
@@ -1076,22 +1077,22 @@ section {
 }
 
 .pricing .box .btn-buy:hover {
-  background: #009961;
+  background: #2f3980;
   color: #fff;
 }
 
 .pricing .recommended {
-  border-color: #009961;
+  border-color: #2f3980;
 }
 
 .pricing .recommended .btn-buy {
-  background: #009961;
+  background: #2f3980;
   color: #fff;
 }
 
 .pricing .recommended .btn-buy:hover {
-  background: #00b371;
-  border-color: #00b371;
+  background: #2f3980;
+  border-color:#1e0044;
 }
 
 .pricing .recommended-badge {
@@ -1103,7 +1104,7 @@ section {
   font-size: 13px;
   padding: 3px 25px 6px 25px;
   background: #edfbf0;
-  color: #009961;
+  color: #2f3980;
   border-radius: 50px;
 }
 
@@ -1193,7 +1194,7 @@ section {
 }
 
 .faq .accordion-list a.collapsed:hover {
-  color: #009961;
+  color: #2f3980;
 }
 
 .faq .accordion-list a.collapsed .icon-show {
@@ -1235,7 +1236,7 @@ section {
 
 .contact .info i {
   font-size: 32px;
-  color: #009961;
+  color:#2f3980;
   float: left;
   line-height: 1;
 }
@@ -1288,7 +1289,7 @@ section {
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #18d26e;
+  background:#2f3980;
   text-align: left;
   padding: 15px;
   font-weight: 600;
@@ -1312,7 +1313,7 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
+  border: 3px solid#2f3980;
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
@@ -1326,7 +1327,7 @@ section {
 }
 
 .contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
-  border-color: #009961;
+  border-color: #2f3980;
 }
 
 .contact .php-email-form input {
@@ -1338,7 +1339,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #009961;
+  background: #2f3980;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1347,7 +1348,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #00b371;
+  background: #2f3980;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1440,7 +1441,7 @@ section {
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot.active {
-  background-color: #009961 !important;
+  background-color: #2f3980 !important;
 }
 
 .portfolio-details .portfolio-info {
@@ -1500,7 +1501,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #0f0f0f;
+  background: #000000;
   color: #fff;
   font-size: 14px;
   text-align: center;
@@ -1521,7 +1522,7 @@ section {
   font-size: 15;
   font-style: italic;
   padding: 0;
-  margin: 0 0 40px 0;
+  margin: 20px 0 20px 0;
 }
 
 #footer .social-links {
@@ -1531,7 +1532,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #009961;
+  background:#2f3980;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1544,7 +1545,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #00b371;
+  background:#2f3980;
   color: #fff;
   text-decoration: none;
 }
@@ -1558,10 +1559,13 @@ section {
 }
 
 #footer .credits a {
-  color: #00b371;
+  color: #2f3980;
   transition: 0.3s;
 }
 
 #footer .credits a:hover {
-  color: #009961;
+  color: #2f3980;
+}
+#footer .logo img {
+  max-height: 50px;
 }
