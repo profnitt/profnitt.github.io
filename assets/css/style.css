@@ -993,8 +993,25 @@ section {
 --------------------------------------------------------------*/
 .pricing {
   background-color: #f9f9f9;
+  
 }
 
+.wrapper {
+  position: relative;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
+
+.pricing img {
+  
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+ /* object-fit: cover;
+width: 320px;
+  height: auto; */
+}
 .pricing .box {
   padding: 40px 20px;
   text-align: center;
