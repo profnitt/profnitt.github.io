@@ -14,11 +14,11 @@ body {
 }
 
 a {
-  color: #009961;
+  color: #011c83;
 }
 
 a:hover {
-  color: #00cc81;
+  color: #2f3980;
   text-decoration: none;
 }
 
@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #009961;
+  border: 6px solid #011c83;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -656,9 +656,9 @@ section {
 }
 
 .icon-bar {
-  width: 100%; 
-  background-color: #FFFF; 
-  overflow: auto; 
+  width: 100%;
+  background-color: #FFFF;
+  overflow: auto;
   height : 120px;
 }
 

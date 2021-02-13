@@ -1,0 +1,76 @@
+section{
+  padding-top: 50px;
+}
+
+.section-title h3 {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.section-title h4 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.section-title h3::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background:#420099;
+  bottom: 0;
+  left: 0;
+}
+
+.section-title h4::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background:#420099;
+  bottom: 5px;
+  left: 0;
+}
+
+.Day1-section, .Day3-section, .Day2-section{
+  display: flex;
+  flex-direction: row;
+  margin: 30px 0 30px 0;
+  justify-content: space-around;
+}
+
+.Day1-section li, .Day3-section li{
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-left-width: 30px;
+}
+
+.Day1-section h4, .Day3-section h4, .Day2-section h4{
+  text-align: left;
+}
+.Day2-section li{
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-right-width: 30px;
+}
+
+.container-sm{
+    margin:auto;
+}
+
+.sponsor-img
+{
+  display:flex;
+  flex-direction:row;
+  margin:30px auto;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
